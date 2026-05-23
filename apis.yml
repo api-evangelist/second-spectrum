@@ -1,0 +1,82 @@
+aid: second-spectrum
+url: https://raw.githubusercontent.com/api-evangelist/second-spectrum/refs/heads/main/apis.yml
+name: Second Spectrum (Genius Sports)
+kind: company
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Sports Tracking
+  - Computer Vision
+  - AI
+  - Broadcast
+  - NBA
+  - Premier League
+  - Genius Sports
+  - Performance Studio
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+description: >-
+  Second Spectrum, acquired by Genius Sports in 2021, is a sports tracking
+  and AI media company supplying skeletal tracking, computer vision, and
+  augmented broadcast products for major leagues including the NBA and the
+  Premier League. The customer-facing offering is the Performance Studio
+  platform; data and integration access are delivered under enterprise
+  agreement rather than a self-serve developer portal.
+apis:
+  - aid: second-spectrum:performance-studio
+    name: Performance Studio
+    description: >-
+      Customer-facing platform delivering Second Spectrum tracking data,
+      visualizations, and clips to club analysts and coaching staff.
+      Access is gated by Auth0-backed login under the Genius Sports
+      Performance Studio domain.
+    humanURL: https://performancestudio.geniussports.com/
+    baseURL: https://performancestudio.geniussports.com
+    tags:
+      - Tracking
+      - Analytics Platform
+      - Coaching
+      - Clips
+    properties:
+      - type: ProductPage
+        url: https://performancestudio.geniussports.com/
+      - type: Authentication
+        url: https://secondspectrum.auth0.com/
+        title: Auth0-backed login
+  - aid: second-spectrum:tracking-data
+    name: Second Spectrum Tracking Data
+    description: >-
+      Skeletal and optical tracking data feed produced from in-venue
+      computer vision systems for football and basketball. Delivered to
+      leagues, clubs, and broadcasters under enterprise agreement; the
+      Premier League and Football DataCo cite Second Spectrum as their
+      football tracking technology.
+    humanURL: https://geniussports.com/
+    baseURL: https://geniussports.com/
+    tags:
+      - Skeletal Tracking
+      - Computer Vision
+      - Football
+      - Basketball
+      - Enterprise
+    properties:
+      - type: ProductPage
+        url: https://geniussports.com/
+      - type: Contact
+        url: https://geniussports.com/
+        title: Enterprise sales-led access
+common:
+  - type: Website
+    url: https://www.secondspectrum.com/
+  - type: Parent
+    url: https://geniussports.com/
+    title: Genius Sports (parent company)
+  - type: Portal
+    url: https://performancestudio.geniussports.com/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/second-spectrum
+  - type: Contact
+    url: https://geniussports.com/contact-us/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
