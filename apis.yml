@@ -1,6 +1,9 @@
 aid: second-spectrum
 url: https://raw.githubusercontent.com/api-evangelist/second-spectrum/refs/heads/main/apis.yml
 name: Second Spectrum (Genius Sports)
+type: Index
+position: Provider
+access: 3rd-Party
 kind: company
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
@@ -12,16 +15,27 @@ tags:
   - Premier League
   - Genius Sports
   - Performance Studio
+  - Skeletal Tracking
+  - Optical Tracking
+  - Augmented Broadcast
 created: '2026-05-23'
-modified: '2026-05-23'
-specificationVersion: '0.19'
+modified: '2026-05-25'
+specificationVersion: '0.20'
 description: >-
-  Second Spectrum, acquired by Genius Sports in 2021, is a sports tracking
-  and AI media company supplying skeletal tracking, computer vision, and
-  augmented broadcast products for major leagues including the NBA and the
-  Premier League. The customer-facing offering is the Performance Studio
-  platform; data and integration access are delivered under enterprise
-  agreement rather than a self-serve developer portal.
+  Second Spectrum is a Los Angeles–based computer vision and AI sports
+  tracking company, acquired by Genius Sports in 2021 for roughly $200M.
+  It supplies skeletal and optical tracking, machine-learning analytics,
+  and augmented broadcast products to major leagues, clubs, and
+  broadcasters — most notably the NBA (official tracking partner from
+  2017 to 2023), the Premier League (official tracking partner via
+  Football DataCo), and MLS. The customer-facing offering is the
+  Performance Studio platform, used by club analysts and coaching staff
+  to access tracking data, visualizations, and tagged clips. There is no
+  public developer portal, no published OpenAPI, and no self-serve API
+  keys; data and integration access are delivered exclusively under
+  enterprise agreement with Genius Sports. The product surface is
+  effectively a sales-led, league/club-tier offering rather than a
+  developer API.
 apis:
   - aid: second-spectrum:performance-studio
     name: Performance Studio
@@ -73,6 +87,10 @@ common:
     title: Genius Sports (parent company)
   - type: Portal
     url: https://performancestudio.geniussports.com/
+  - type: Newsroom
+    url: https://geniussports.com/news/
+  - type: Careers
+    url: https://geniussports.com/careers/
   - type: LinkedIn
     url: https://www.linkedin.com/company/second-spectrum
   - type: Contact
