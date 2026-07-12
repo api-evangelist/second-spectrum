@@ -1,0 +1,33 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.secondspectrum.com
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Dec 17 23:59:59 2026 GMT
+  hsts: null
+- host: performancestudio.geniussports.com
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Mar 19 23:59:59 2027 GMT
+  hsts: null
+- host: geniussports.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Jan  5 23:59:59 2027 GMT
+  hsts: true
+  hsts_max_age: 86400
+domains:
+- domain: secondspectrum.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: none
+- domain: geniussports.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine
