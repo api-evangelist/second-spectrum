@@ -120,6 +120,11 @@ apis:
         url: https://geniussports.com/
         title: Enterprise sales-led access
 common:
+  - type: ParentCompany
+    url: https://apis.io/providers/genius-sports/
+    name: Genius Sports
+    x-relationship: acquired
+    x-evidence: "Second Spectrum is a Los Angeles–based computer vision and AI sports tracking company, acquired by Genius Sports in 2021 for roughly $200M."
   - type: DomainSecurity
     url: security/second-spectrum-domain-security.yml
   - type: Website
