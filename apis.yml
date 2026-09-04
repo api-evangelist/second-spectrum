@@ -24,7 +24,9 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
-position: Provider
+  source:
+  - {url: 'https://www.secondspectrum.com/', status: 302, note: 'declared website redirects to https://performancestudio.geniussports.com/ — a different registrable domain (secondspectrum.com -> geniussports.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
+position: Producing
 access: 3rd-Party
 kind: company
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/second-spectrum.png
