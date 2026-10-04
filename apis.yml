@@ -32,7 +32,7 @@ kind: company
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/second-spectrum.png
 tags:
   - Sports Tracking
-  - Computer-Vision
+  - Computer Vision
   - Artificial Intelligence
   - Broadcast
   - NBA
@@ -54,6 +54,7 @@ tags_raw:
   - Skeletal Tracking
   - Optical Tracking
   - Augmented Broadcast
+  - Computer-Vision
 created: '2026-05-23'
 modified: '2026-05-25'
 specificationVersion: '0.23'
@@ -105,7 +106,7 @@ apis:
     baseURL: https://geniussports.com/
     tags:
       - Skeletal Tracking
-      - Computer-Vision
+      - Computer Vision
       - Football
       - Basketball
       - Enterprise
@@ -115,6 +116,7 @@ apis:
       - Football
       - Basketball
       - Enterprise
+      - Computer-Vision
     properties:
       - type: ProductPage
         url: https://geniussports.com/
